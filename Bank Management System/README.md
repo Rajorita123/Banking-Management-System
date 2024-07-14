@@ -1,18 +1,16 @@
-## Getting Started
+## This project is Database Management System(DBMS) that uses Java Database Connectivity(JDBC) to interect with a MySQL database. 
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+## Requirements
+Java Development Kit(JDK)
+MySQL server
+JDBC Driver for MySQL(Connector/J)
 
-## Folder Structure
+## JDBC Configuration
+db.url = "jdbc:mysql://localhost:3306/db_name";
+db.username = your-username;
+db.password = your-password;
 
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+## Features
+CRUD Operations: Create, Read, Update and Delete record in/from the database.
+Search Functionality : Search for records based on various criteria.
+Give access to the users for register, login, opening accounts, transactions(credit, debit, transfer) through it.
